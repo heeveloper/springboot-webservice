@@ -1,0 +1,2 @@
+insert into POST (title, author, content, created_at, modified_at) values ('테스트1', '123', '테스트1의 본문', now(), now());
+insert into POST (title, author, content, created_at, modified_at) values ('테스트2', '456', '테스트2의 본문', now(), now());

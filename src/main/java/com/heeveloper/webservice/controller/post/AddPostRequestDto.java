@@ -1,13 +1,13 @@
 package com.heeveloper.webservice.controller.post;
 
 import com.heeveloper.webservice.domains.post.Post;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
+@Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class AddPostRequestDto {
     private String title;
     private String author;
